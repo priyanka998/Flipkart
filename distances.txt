@@ -1,0 +1,10 @@
+Approach I have followed but couldn't succeced in it:
+
+* Generated data of 1500 samples
+* Radomly selected two points as starting points and ending points.
+* Plotted those points on the graph
+* Then constructed a list containing the distance between starting point and rest of points.
+* Then sorted the list and took the minimum distance and considered as starting point and stored previous starting point in prev
+* Checked the condition where the starting point and prev are same or not
+* If they are not same, then iterated over the points and calculated the distances.
+* I have choosen that condition because at some point they become equal.
